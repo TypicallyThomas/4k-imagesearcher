@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "4K Image Search",
+  "version": "1.0",
+  "description": "Right-click to search for 4K images on Google.",
+  "permissions": ["contextMenus"],
+  "host_permissions": ["*://www.google.com/"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
